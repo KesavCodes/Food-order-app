@@ -1,0 +1,37 @@
+.cart-item{
+    display: flex;
+    background: #232D3F;
+    border-radius: 8px;
+    border: 1.5px solid #ffc404;
+    margin:0.5rem;  
+    color:#d9e2f1;
+    padding-left: 2rem;
+}
+
+.name-price {
+    margin-right: auto;
+}
+.name-price p{
+    font-weight: bold;
+    color:  #ffc404;
+}
+
+.quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.quantity h4{
+    width: 3rem;
+    text-align: center;
+}
+
+.quantity button{
+    border-radius: 60%;
+    background: #181D31;
+    color:#ffc404;
+    font: inherit;
+    font-size:xx-large;
+}

@@ -1,0 +1,26 @@
+.search {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+
+
+.search input {
+    width: 60%;
+    align-items: center;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    color:#ffc404;
+    font-size: large;
+    font:inherit;
+    padding: 8px;
+    border-bottom:4px solid #ffc404;
+}
+
+.search input:focus,
+.search input:active{
+    outline: none;
+}

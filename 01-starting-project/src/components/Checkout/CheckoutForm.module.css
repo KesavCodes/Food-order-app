@@ -1,0 +1,17 @@
+.actions{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.actions button{
+    width: 6rem;
+    padding: 8px;
+    border-radius: 0.4rem;
+    background: #181D31;
+    color:#ffc404;
+    font: inherit;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #ffc404;
+}

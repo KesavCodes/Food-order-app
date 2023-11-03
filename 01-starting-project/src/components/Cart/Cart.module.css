@@ -1,0 +1,28 @@
+.cart{
+    background: linear-gradient(#031524, #001524);
+    box-shadow: 2px 2px 2px #ffc404;
+}
+.cart h3 {
+    color:#ffc404;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+.no-data {
+    color: aliceblue;
+    text-align: center;
+}
+
+.action{
+    padding: 1rem;
+    text-align: center;
+}
+.action button{
+    font:inherit;
+    margin: 1rem;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 0.5px 0.5px 4px 2px #ffc404;
+}

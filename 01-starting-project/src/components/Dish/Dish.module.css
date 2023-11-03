@@ -1,0 +1,8 @@
+.dish{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+    margin-left:15%;
+    align-items: space-around;
+}

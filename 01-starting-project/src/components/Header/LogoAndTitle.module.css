@@ -1,0 +1,10 @@
+.title-container {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.title-container img {
+    height: 5rem;
+    width: 5rem;
+}

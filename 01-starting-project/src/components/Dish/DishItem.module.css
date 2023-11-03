@@ -1,0 +1,50 @@
+.dish-item {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    margin:1.5rem;
+    background: #232D3F;
+    border-radius: 1rem;
+}
+
+.dish-item img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.dish-item h3{
+    padding: 0 1rem;
+}
+
+.dish-item p{
+    padding: 0 1rem;
+}
+
+.dish-item div{
+    background:linear-gradient(#031524, #001524);
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    border-radius: 0.3rem;
+    margin: 1rem 0;
+    font-weight: bold;
+    color:#ffc404;
+}
+
+.dish-item button{
+    background: #181D31;
+    color:#ffc404;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 8rem;
+    height:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font: inherit;
+}

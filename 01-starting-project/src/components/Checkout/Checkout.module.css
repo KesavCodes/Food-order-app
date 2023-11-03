@@ -1,0 +1,11 @@
+.checkout {
+    background: linear-gradient(#22668D,#0E2954);
+    margin-left:5rem;
+    padding-top: 2rem;
+}
+
+.checkout h3{
+    margin: 0;
+    padding: 1rem;
+    font-size: larger;
+}
