@@ -2,10 +2,12 @@
     background: linear-gradient(#22668D,#0E2954);
     margin-left:5rem;
     padding-top: 2rem;
+    border: 4px solid #ffc404;
 }
 
-.checkout h3{
+.checkout h3,p{
     margin: 0;
     padding: 1rem;
     font-size: larger;
 }
+

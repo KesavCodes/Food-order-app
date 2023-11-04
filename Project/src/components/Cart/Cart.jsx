@@ -5,6 +5,7 @@ import styles from './Cart.module.css'
 
 const Cart = () => {
   const cartCtx = useContext(CartContext);
+  console.log(cartCtx)
 
   const addItemToCartHandler = (item) => {
     const data = { ...item, quantity: 1 };
@@ -32,7 +33,7 @@ const Cart = () => {
   return <div className={styles.cart}>
     <h3>Cart 🛒</h3>
     {content}
-    <h3>Cart Total : {parseFloat(cartCtx.netTotal).toFixed(2)}</h3>
+    <h3>Cart Total : ${parseFloat(Math.abs(cartCtx.netTotal)).toFixed(2)}</h3>
     <div className={styles.action}>
       <button onClick={cartCtx.toggleShowCart}>Close</button>
       <button onClick={cartCtx.toggleShowCheckout}>Checkout</button>
